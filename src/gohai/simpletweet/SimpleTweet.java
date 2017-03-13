@@ -62,6 +62,7 @@ public class SimpleTweet {
    *  This is necessary to do before the Twitter API can be used
    *  To get this key it is necessary to register your application
    *  at https://apps.twitter.com/app/new
+   *  @param key consumer key
    */
   public void setOAuthConsumerKey(String key) {
     oAuthConsumerKey = key;
@@ -73,6 +74,7 @@ public class SimpleTweet {
    *  This is necessary to do before the Twitter API can be used
    *  To get this key it is necessary to register your application
    *  at https://apps.twitter.com/app/new
+   *  @param secret consumer secret
    */
   public void setOAuthConsumerSecret(String secret) {
     oAuthConsumerSecret = secret;
@@ -84,6 +86,7 @@ public class SimpleTweet {
    *  This is necessary to do before the Twitter API can be used
    *  To get this key it is necessary to register your application
    *  at https://apps.twitter.com/app/new
+   *  @param token access token
    */
   public void setOAuthAccessToken(String token) {
     oAuthAccessToken = token;
@@ -95,6 +98,7 @@ public class SimpleTweet {
    *  This is necessary to do before the Twitter API can be used
    *  To get this key it is necessary to register your application
    *  at https://apps.twitter.com/app/new
+   *  @param secret access token secret
    */
   public void setOAuthAccessTokenSecret(String secret) {
     oAuthAccessTokenSecret = secret;
